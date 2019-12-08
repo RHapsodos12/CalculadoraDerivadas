@@ -1,6 +1,6 @@
 Calculadora de Derivadas e Integrales
 ===========
-Calculadora de integrales y derivadas sencillas desarrollado por alumnos de la Universidad Tecnológica de Durango.
+Calculadora de integrales y derivadas sencillas para dispositivos moviles Android desarrollado por alumnos de la Universidad Tecnológica de Durango.
 Desarrolladores:
 - Joel Andrade Enriquez
 - Carlos Sebastian Martinez Bustos

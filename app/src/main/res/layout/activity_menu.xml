@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/uno"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:id="@+id/ic_salir"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/exit"
+                    android:layout_gravity="right"/>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="Salir"
+                    android:textColor="#FAFAFA"
+                    android:textSize="20sp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="50dp"/>
+
+            </FrameLayout>
+
+
+        </android.support.v7.widget.Toolbar><!-- FIN BARRA-->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/dos"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elija una opcion"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_gravity="center|bottom"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/derivadas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="Derivadas "
+                android:textColor="#FAFAFA"
+                android:textSize="20sp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"/>
+
+            <Button
+                android:id="@+id/trigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:background="@color/colorPrimary"
+                android:text="Derivadas Trigonometricas"
+                android:textColor="#FAFAFA"
+                android:textSize="20sp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"/>
+
+            <Button
+                android:id="@+id/int_def"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:background="@color/colorPrimary"
+                android:text="Integrales Definidas"
+                android:textColor="#FAFAFA"
+                android:textSize="20sp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"/>
+
+            <Button
+                android:id="@+id/btn_indefinidas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:background="@color/colorPrimary"
+                android:text="Integrales Indefinidas"
+                android:textColor="#FAFAFA"
+                android:textSize="20sp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="10dp"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>

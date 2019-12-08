@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carlos.derivadas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Calculadora de derivadas e integrales"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".inicio" />
+        <activity android:name=".acercade" />
+        <activity android:name=".derivadas" />
+        <activity android:name=".menu" />
+        <activity android:name=".teoria" />
+        <activity android:name=".calcular" />
+        <activity android:name=".deritrigo" />
+        <activity android:name=".definidas" />
+        <activity android:name=".indefinidas"></activity>
+    </application>
+
+</manifest>

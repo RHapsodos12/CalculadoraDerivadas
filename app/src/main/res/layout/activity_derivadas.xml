@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".derivadas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/uno" />
+
+                <ImageView
+                    android:id="@+id/salir"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/exit" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="Salir"
+                    android:textColor="#FAFAFA"
+                    android:textSize="20sp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="50dp"/>
+
+                <ImageView
+                    android:id="@+id/inicio"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:src="@drawable/home" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:text="Menu"
+                    android:textColor="#FAFAFA"
+                    android:textSize="20sp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="50dp"/>
+
+            </FrameLayout>
+
+
+        </android.support.v7.widget.Toolbar><!-- FIN BARRA-->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Puedes repasar un poco antes de hacer una derivada o intentarlo en este momento."
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_margin="10dp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/teoria"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/cuatro"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_marginTop="200dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teoria"
+                android:textColor="#000"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/calcular"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/cinco"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_marginTop="200dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calcular"
+                android:textColor="#000"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

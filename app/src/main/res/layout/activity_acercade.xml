@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".acercade">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACERCA DE NOSOTROS"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Esta aplicación fue desarrollada por: Andrade Enriquez Joel, Martinez Bustos Carlos Sebastian, Muñoz Diaz Miguel Angel y Santacruz Amador Rogelio David, Todos alumnos de la Universidad Tecnologica del Estado de Durango del 7mo Cuatrimestre En Tecnologias de la Información y comunicación."
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_margin="10dp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="210dp"
+                android:src="@drawable/tres"/>
+        </FrameLayout>
+<FrameLayout
+    android:layout_marginTop="1dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Sitio web"
+        android:textColor="#FAFAFA"
+        android:textSize="16sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+    <Button
+        android:id="@+id/backini"
+        android:layout_marginTop="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Volver"
+        android:textSize="16dp"
+        android:textColor="#FAFAFA"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+</FrameLayout>
+    </LinearLayout>
+
+</ScrollView>
